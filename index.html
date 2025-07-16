@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support Center</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background: #f4fbf5;
+      color: #2d4739;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #49a078;
+      padding: 1.5rem 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      color: #49a078;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-item {
+      background: #ffffff;
+      border: 2px solid #49a078;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .service-item:hover {
+      background: #49a078;
+      color: #fff;
+      transform: translateY(-4px);
+    }
+
+    .service-item h3 {
+      margin-bottom: 0.5rem;
+      color: inherit;
+    }
+
+    .commitment {
+      background: #d9f3e4;
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    .commitment h2 {
+      margin-bottom: 0.5rem;
+      color: #49a078;
+    }
+
+    footer {
+      background: #49a078;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: auto;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Customer Service</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>We’re Here For You</h2>
+      <p>Have a question or need help? Find answers fast or reach our friendly team any time.</p>
+    </section>
+
+    <section class="services">
+      <div class="service-item">
+        <h3>FAQs</h3>
+        <p>Browse quick answers to common questions.</p>
+      </div>
+      <div class="service-item">
+        <h3>Account Support</h3>
+        <p>Update your account or fix login issues easily.</p>
+      </div>
+      <div class="service-item">
+        <h3>Tech Help</h3>
+        <p>Get step-by-step help for any technical problem.</p>
+      </div>
+      <div class="service-item">
+        <h3>How-To Guides</h3>
+        <p>Simple tutorials to help you get the most out of our services.</p>
+      </div>
+    </section>
+
+    <section class="commitment">
+      <h2>Your Satisfaction Matters</h2>
+      <p>We promise quick help, clear answers, and warm support — whenever you need it.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Support Center. All rights reserved.
+  </footer>
+
+</body>
+</html>
